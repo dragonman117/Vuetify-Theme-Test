@@ -1,0 +1,8 @@
+// main.scss
+$font: 'Acumin Pro', serrif !important;
+
+@use 'vuetify/styles' with (
+  $color-pack: false,
+  $utilities: false,
+  $body-font-family: $font
+);
